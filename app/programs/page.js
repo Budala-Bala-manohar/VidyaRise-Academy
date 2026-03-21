@@ -1,3 +1,9 @@
+const courses = [
+  { id: 1, title: "Coding", description: "Learn programming" },
+  { id: 2, title: "Aptitude", description: "Problem solving skills" },
+  { id: 3, title: "Soft Skills", description: "Communication skills" },
+  { id: 4, title: "AI", description: "Artificial Intelligence basics" }
+];
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 const { getDb } = require('@/lib/db');
