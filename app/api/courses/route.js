@@ -6,3 +6,9 @@ export async function GET() {
     { id: 4, title: "AI", description: "Artificial Intelligence basics" }
   ]);
 }
+{courses.map((course) => (
+  <div key={course.id}>
+    <h2>{course.title}</h2>
+    <p>{course.description}</p>
+  </div>
+))}
